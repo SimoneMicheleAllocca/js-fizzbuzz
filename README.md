@@ -8,7 +8,7 @@
  Abbiamo visto qualcosa di particolare che possiamo usare?
 
  # SVOLGIMENTO
- - [ ] Stampiamo in console i numeri da 1 a 100
+ - [x] Stampiamo in console i numeri da 1 a 100
  - [ ] Se un numero è divisibile per 3 stampiamo Fizz
  - [ ] Se un numero è divisibile per 5 stampiamo Buzz
  - [ ] Se un numero è divisibile sia per 3 che per 5 stampiamo FizzBuzz
