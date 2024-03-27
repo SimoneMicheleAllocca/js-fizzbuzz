@@ -6,18 +6,27 @@ const rowElem =document.querySelector(".row") //object | null
 
 for (let i = 1; i <= 99; i++) {
     console.log(i);
-    const boxElem = `<div class="box">${i}</div>`;
-    rowElem.innerHTML += boxElem;
+    let bgClass;
+    
+    
 
 
     if(( i % 3 === 0) && (i % 5 === 0))  {
          console.log("FizzBuzz");
-        
-
+         
+         bgClass = "fizzbuzz";
     } else if ( i % 5 === 0) {
-        console.log("Buzz")
+        console.log("Buzz");
+        
+        bgClass = "buzz";
     } else if( i % 3 === 0) {
         console.log("Fizz")
+        
+        bgClass = "fizz";
     } 
         
+      const boxElem = `<div class = "box ${bgClass}">${i}</div>`;
+        rowElem.innerHTML += boxElem;  
+       
+
 }
